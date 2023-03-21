@@ -1,0 +1,162 @@
+// ---------------------------------------------------
+// COLORS
+
+$primary: 	#E54541;
+$secondary: #F2F2F2;
+$success: 	#05B9A7;
+$info: 		#00AEEF;
+$warning: 	#F37939;
+$danger: 	#FF0000;
+$dark: 		#151C27;
+$light: 	#FFFFFF;
+
+$gray-300: #E4E4E4;
+$gray-400: #707070;
+$gray-600: $secondary;
+
+$text-muted: $secondary;
+
+$body-color: $dark;
+
+
+
+// ---------------------------------------------------
+// SPACINGS, EXTEND m-x, p-x
+$spacer: 1rem;
+$spacers: (
+	0: 0,
+	1: ($spacer * .25),
+	2: ($spacer * .5),
+	3: ($spacer * 1),
+	4: ($spacer * 1.5),
+	5: ($spacer * 2),
+	6: ($spacer * 2.5),
+	7: ($spacer * 3),
+	8: ($spacer * 3.5),
+	9: ($spacer * 4),
+	10: ($spacer * 5),
+	11: ($spacer * 5.5),
+	12: ($spacer * 6),
+	13: ($spacer * 6.5),
+	14: ($spacer * 7),
+	15: ($spacer * 7.5),
+	16: ($spacer * 8),
+	17: ($spacer * 8.5),
+	18: ($spacer * 9),
+	19: ($spacer * 9.5),
+	20: ($spacer * 10),
+	21: ($spacer * 10.5),
+	22: ($spacer * 11),
+	23: ($spacer * 11.5),
+	24: ($spacer * 12),
+);
+
+
+// ---------------------------------------------------
+// OVERRIDES // PUT EVERYTHING HERE !!!!!!!!!
+
+$enable-negative-margins: true;
+
+
+$font-family-sans-serif: "Poppins", sans-serif;
+$headings-font-family:  $font-family-sans-serif;
+
+$font-family-base:      "OpenSans", sans-serif;
+
+$font-size-base: 		 1.1rem;
+
+$font-weight-light: 	 300;
+$font-weight-normal: 	 400;
+$font-weight-bold: 		 700;
+
+$headings-margin-bottom: $spacer * 1.4;
+
+$paragraph-margin-bottom: 1.4rem;
+
+// Font Sizes
+$h1-font-size: $font-size-base * 3.5;
+$h1-xl-font-size: $font-size-base * 4.1;
+$h2-font-size: $font-size-base * 3.5;
+$h3-font-size: $font-size-base * 1.9;
+$h4-font-size: $font-size-base * 1.4;
+$h5-font-size: $font-size-base;
+
+$headings-line-height: 	1.1;
+$headings-font-weight:	$font-weight-bold;
+// $headings-color:		$gray-600;
+
+$navbar-item-size: 		1rem;
+
+// Aside width
+$aside-width:			735px;
+
+// Line Height
+$line-height-base: 		1.6;
+$line-height-lg:		1.8;
+
+// Border radius
+$enable-rounded:        false;
+
+$input-font-size:       1rem;
+$input-font-weight:     $font-weight-bold;
+
+//Links
+$link-decoration:       none;
+$link-color:            $primary;
+$lead-font-weight:      $font-weight-bold;
+
+// Navbar Links
+$navbar-nav-link-padding-:  2rem;
+$navbar-nav-link-padding-x: 5.5rem;
+//Buttons
+$btn-font-family:    "OpenSans", sans-serif;
+$btn-font-weight:    $font-weight-bold;
+$btn-padding-y: 	 0.6rem;
+$btn-padding-x: 	 1.7rem;
+
+// $btn-close-color: 				$light;
+$input-btn-border-width:		0.2rem;
+$btn-border-width:            	$input-btn-border-width;
+
+// Form Select
+$form-select-padding-y:         1.1rem;
+$form-select-padding-x:         0.75rem;
+$form-select-font-weight:      	$font-weight-light;
+$form-select-indicator-color:   $light;
+$form-select-indicator:         url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="7.5" viewBox="0 0 15 7.5">
+<path id="Icon_material-arrow-drop-down" data-name="Icon material-arrow-drop-down" d="M10.5,15,18,22.5,25.5,15Z" transform="translate(-10.5 -15)" fill="#fff"/>
+</svg>");
+
+// Floating labels
+$form-floating-label-transform:   scale(.85) translateY(-.95rem) translateX(.15rem);
+
+// Form checkbox
+$form-check-input-border:                  0;
+$form-check-input-bg:                    rgba(21, 28, 39, 0.35);
+$form-check-radio-border-radius:          10rem;
+$form-check-input-border-radius:          10rem;
+$form-check-input-checked-bg-color:       rgba(21, 28, 39, 0.35);
+$form-check-input-focus-box-shadow:       0;
+$form-check-label-cursor:                 cursor;
+
+// Nav pills
+$nav-pills-border-radius:          			0;
+$nav-pills-link-active-color:       		$dark;
+$nav-pills-link-active-bg:          		transparent;
+
+// Card
+$box-shadow:						0 .5rem 1rem rgba(0 0 0, .8);
+$card-box-shadow:                   $box-shadow;
+$card-border-width:                 0;
+
+//Utilities
+$utilities: (
+	"opacity": (property: opacity,
+		values: (0: 0,
+			10: .1,
+			25: .25,
+			50: .5,
+			75: .75,
+			100: 1,
+		)),
+);

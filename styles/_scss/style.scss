@@ -1,0 +1,184 @@
+.small-title{
+
+	@extend .text-uppercase;
+	@extend .fw-bold;
+	@extend .mb-lg-3, .mb-2;
+
+	font-size: 1.1rem;
+	letter-spacing: 0.2rem;
+
+	@include media-breakpoint-down(lg){
+		font-size: 0.95rem!important;
+	}
+
+	&.red{
+		@extend .text-primary;
+
+	}
+
+	&.white{
+
+		@extend .mb-4;
+
+		@extend .text-white;
+
+		font-size: 1.4rem!important;
+		@include media-breakpoint-down(md){
+			font-size: 1.25rem!important;
+		}
+	}
+}
+
+.bg-main{
+	@extend .position-relative;
+
+	&.first{
+
+	&:before{
+		content:'';
+		@extend .position-absolute;
+		top:-2rem;
+		left:3rem;
+		background:url('../../_assets/images/Page_Driver/bg-section-first.jpg');
+
+		background-position: top left;
+		background-repeat:no-repeat;
+		height:100%;
+		width:100%;
+
+		@media screen and (max-width:992px){
+			background:unset!important;
+		}
+	}
+
+
+	}
+
+
+}
+
+// Background secondary
+.background-secondary{
+
+	&.full-width{
+		@extend .position-relative;
+		@extend .bg-secondary;
+
+		&:before{
+			content:'';
+			@extend .bg-secondary;
+			@extend .position-absolute, .top-0;
+
+			left: -100%;
+			height: 100%;
+			width: 100vw;
+			z-index:-1;
+		}
+
+		&:after{
+			content:'';
+			@extend .position-absolute, .top-0;
+			@extend .bg-secondary;
+
+			right: -100%;
+			height: 100%;
+			width: 100vw;
+			z-index:-1;
+		}
+	}
+
+	&.left{
+		&:before{
+			content:'';
+			@extend .bg-secondary;
+			@extend .position-absolute, .top-0;
+			left: -100%;
+			height: 100%;
+			width: 100vw;
+			z-index:-1;
+		}
+	}
+}
+
+.bg-primary {
+	@extend .text-white;
+}
+//
+
+// Mobile fonts sizes
+
+@include media-breakpoint-down(lg){
+	h1{
+		font-size: 2.25rem;
+	}
+
+	h2{
+		font-size: 1.75rem!important;
+	}
+
+	h3{
+		font-size: 1.75rem;
+	}
+
+	h4{
+		font-size: 1.12rem;
+	}
+}
+
+
+.mobile-font{
+	@include media-breakpoint-down(md){
+		font-size: 2.25rem!important
+	}
+}
+//
+
+// Form Control
+.form-select{
+	@extend .border-0;
+	color:#fff;
+	background-color: rgba(21, 28, 39, 0.35)!important;
+}
+.form-check{
+
+	@include media-breakpoint-down(lg){
+
+		margin-bottom: 0.8rem;
+		display: flex!important;
+		align-items: center;
+
+	}
+
+	.form-check-input{
+		border-radius: 6px;
+		@include media-breakpoint-down(lg){
+			width: 1.4rem;
+			height: 1.4rem;
+		}
+	}
+
+	.form-check-label{
+		@include media-breakpoint-down(lg){
+			padding-left: 1rem;
+		}
+	}
+}
+
+.form-floating {
+	.form-control{
+		@extend .border-0;
+		background-color: rgba(21, 28, 39, 0.35)!important;
+		color:#fff;
+	}
+}
+
+body{
+	@include media-breakpoint-down(lg){
+		font-size: 0.88rem;
+	}
+}
+// -----------------
+
+[v-cloak] {
+  display: none;
+}

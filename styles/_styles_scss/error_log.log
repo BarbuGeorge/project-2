@@ -1,0 +1,43 @@
+10/07/22 6:44:30: styles.scss - parse error: failed at `transform%;` /Applications/XAMPP/xamppfiles/htdocs/mvl/wp-content/themes/MVLtheme/styles/_styles_scss/../_scss/Page_Driver.scss on line 815, at column 5
+10/11/22 10:09:21: styles.scss - unclosed block: failed at `` /work/public_html/anthemrepublic/mvl/wp-content/themes/MVLtheme/styles/_styles_scss/../_scss/Page_Driver.scss on line 928, at column 0
+10/11/22 10:09:31: styles.scss - unclosed block: failed at `` /work/public_html/anthemrepublic/mvl/wp-content/themes/MVLtheme/styles/_styles_scss/../_scss/Page_Driver.scss on line 928, at column 0
+10/11/22 12:48:56: styles.scss - unclosed block: failed at `` /work/public_html/anthemrepublic/mvl/wp-content/themes/MVLtheme/styles/_styles_scss/../_scss/Page_Driver.scss on line 951, at column 0
+10/24/22 8:44:42: styles.scss - Missing argument $name: ../_scss/page-apply.scss on line 71, at column 4
+Call Stack:
+#0 import ../_scss/page-apply.scss styles.scss on line 41
+10/24/22 8:45:47: styles.scss - Missing argument $name: ../_scss/page-apply.scss on line 71, at column 4
+Call Stack:
+#0 import ../_scss/page-apply.scss styles.scss on line 41
+10/24/22 8:46:59: styles.scss - Missing argument $name: ../_scss/page-apply.scss on line 71, at column 4
+Call Stack:
+#0 import ../_scss/page-apply.scss styles.scss on line 41
+10/24/22 8:49:00: styles.scss - Missing argument $name: ../_scss/page-apply.scss on line 71, at column 4
+Call Stack:
+#0 import ../_scss/page-apply.scss styles.scss on line 41
+03/16/23 10:33:51: styles.scss - Undefined variable $font: ../_scss/page-contact-us.scss on line 25, at column 3
+Call Stack:
+#0 import ../_scss/page-contact-us.scss styles.scss on line 43
+03/16/23 10:33:51: styles.scss - Undefined variable $font: ../_scss/page-contact-us.scss on line 25, at column 3
+Call Stack:
+#0 import ../_scss/page-contact-us.scss styles.scss on line 43
+03/16/23 10:34:04: styles.scss - Undefined variable $font-size-h4: ../_scss/page-contact-us.scss on line 27, at column 3
+Call Stack:
+#0 import ../_scss/page-contact-us.scss styles.scss on line 43
+03/16/23 10:34:04: styles.scss - Undefined variable $font-size-h4: ../_scss/page-contact-us.scss on line 27, at column 3
+Call Stack:
+#0 import ../_scss/page-contact-us.scss styles.scss on line 43
+03/16/23 12:24:40: styles.scss - Undefined variable $input-padding-y: ../_scss/_variables.scss on line 122, at column 1
+Call Stack:
+#0 import ../_scss/_variables.scss styles.scss on line 26
+03/16/23 12:25:40: styles.scss - Undefined variable $input-padding-y: ../_scss/_variables.scss on line 122, at column 1
+Call Stack:
+#0 import ../_scss/_variables.scss styles.scss on line 26
+03/16/23 12:26:43: styles.scss - Undefined variable $input-padding-y: ../_scss/_variables.scss on line 122, at column 1
+Call Stack:
+#0 import ../_scss/_variables.scss styles.scss on line 26
+03/19/23 8:06:29: styles.scss - Undefined variable $component-active-color: ../_scss/_variables.scss on line 141, at column 1
+Call Stack:
+#0 import ../_scss/_variables.scss styles.scss on line 26
+03/20/23 9:03:28: styles.scss - ".page-about .section-hero" failed to @extend ".background-seconday". The selector ".background-seconday" was not found.: ../_scss/page-apply.scss on line 7, at column 3
+03/20/23 9:03:28: styles.scss - ".page-about .section-hero" failed to @extend ".background-seconday". The selector ".background-seconday" was not found.: ../_scss/page-apply.scss on line 7, at column 3
+03/21/23 9:31:26: styles.scss - ".page-about .section-hero .list-col .img-wrapper img" failed to @extend ".ms-n0". The selector ".ms-n0" was not found.: ../_scss/page-apply.scss on line 53, at column 3

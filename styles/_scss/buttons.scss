@@ -1,0 +1,69 @@
+.btn{
+
+	@extend .shadow-none;
+	@extend .text-uppercase;
+	letter-spacing: 0.2rem;
+
+	@include media-breakpoint-down(lg){
+		padding: 0.6rem 0.9rem;
+	}
+
+	@media screen and (min-width:992px) and (max-width:1400px){
+		padding: 9.6px 14px!important;
+	}
+
+	@include media-breakpoint-down(lg){
+		font-size: 0.9rem!important;
+	}
+
+	&.filled{
+
+
+		@extend .btn-primary;
+		@extend .text-white;
+
+		&:hover{
+
+			@extend .border-3 , .border-primary;
+			@extend .bg-transparent;
+			@extend .text-primary;
+
+		}
+	}
+
+	&.outlined{
+
+		@extend .btn-outline-primary;
+		@extend .text-primary;
+
+
+		&:hover{
+
+			@extend .bg-transparent;
+			border-color: $dark!important;
+			color: $dark!important;
+
+		}
+
+		&.hover-white{
+			&:hover{
+				border-color: $white!important;
+				color: $white!important;
+			}
+		}
+
+		&.white{
+
+			@extend .btn-outline-light;
+			@extend .text-light;
+
+			&:hover{
+
+				border-color: $dark!important;
+				color: $dark!important;
+
+			}
+		}
+	}
+
+}

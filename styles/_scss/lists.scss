@@ -1,0 +1,43 @@
+.marked-list{
+	@extend .list-unstyled;
+	@extend .mb-0;
+		li{
+			@extend .position-relative;
+			@extend .mb-2;
+			padding-left: 1.7rem;
+
+			&:before{
+				@extend .position-absolute, .start-0;
+				@extend .text-primary;
+				top: 0.1rem;
+				font-family: 'FontAwesome';
+				content:'\f30b';
+			}
+		}
+	&.dark{
+		li{
+			&:before{
+				@extend .text-dark;
+			}
+		}
+	}
+}
+
+.red-square-list{
+	li{
+		@extend .position-relative;
+		@extend .mb-2;
+		padding-left:1.4rem;
+
+		&:before{
+			@extend .position-absolute;
+			@extend .text-primary;
+			font-size:0.45rem;
+			top:0.55rem;
+			left:0.2rem;
+			font-family:'FontAwesome';
+			content:'\f0c8';
+		}
+
+	}
+}

@@ -1,0 +1,45 @@
+/*
+Theme Name: MVL Theme
+*/
+@font-face {
+	font-family: "OpenSans";
+	src: url("../../_assets/fonts/OpenSans-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "OpenSans";
+	src: url("../../_assets/fonts/OpenSans-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Poppins";
+	src: url("../../_assets/fonts/Poppins-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Poppins";
+	src: url("../../_assets/fonts/Poppins-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+
+
+@import "../_scss/_variables.scss";
+@import "../../_assets/bootstrap-5.1.3/scss/bootstrap.scss";
+
+
+@import "../_scss/style.scss";
+@import "../_scss/buttons.scss";
+@import "../_scss/layout.scss";
+@import "../_scss/header.scss";
+@import "../_scss/footer.scss";
+@import "../_scss/modal.scss";
+@import "../_scss/lists.scss";
+@import "../_scss/transitions.scss";
+
+@import "../_scss/Page_Driver.scss";
+@import "../_scss/page-home.scss";
+@import "../_scss/page-about.scss";
+@import "../_scss/page-services.scss";
+@import "../_scss/page-contact-us.scss";
+@import "../_scss/page-job.scss";
+@import "../_scss/page-apply.scss";

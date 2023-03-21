@@ -1,0 +1,47 @@
+.contact-info-col{
+	@extend .col-lg-7, .col-12, .mx-auto;
+	@extend .position-relative;
+	z-index: 2;
+
+	@include media-breakpoint-down(lg){
+		margin-left: 0!important;
+		margin-right: 0!important;
+	}
+
+	@include media-breakpoint-up(lg){
+		bottom: -14rem;
+	}
+
+	h1{
+		@extend .mb-1;
+	}
+
+	h4{
+		@extend .mb-1;
+
+		&:first-of-type{
+			@extend .mt-5;
+		}
+
+		@include media-breakpoint-down(lg){
+			font-size: 0.88rem;
+		}
+	}
+
+	p{
+		font-size: $h4-font-size;
+
+		@include media-breakpoint-down(lg){
+			font-size: 0.88rem;
+		}
+	}
+
+}
+
+.section-form{
+	@extend .bg-primary;
+	@extend .d-flex;
+	@extend .pt-lg-14, .pt-7, .pb-lg-20, .pb-9;
+	@extend .ps-lg-10, .ps-3;
+	height: 100%;
+}
